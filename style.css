@@ -1,0 +1,247 @@
+body {
+    background-color: #121524;
+}
+
+h1, h2 {
+    font-family: 'Gloock', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    z-index: 9001;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px; left: 0px; right: 0px; height: 100px;
+    background-color: #121524;    
+    margin-left: auto; margin-right: auto;
+    border-bottom: 3px solid #23305e;
+    box-shadow: rgba(35, 48, 94, 0.8) 0px 0px 100px;
+}
+
+.header-tabs a{
+    border-radius: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.header-tabs {
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+
+
+.intro {
+    margin-left: auto; margin-right: auto;
+    margin-top: 125px;
+    border-radius: 15px; padding: 20px; height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    margin-bottom: 0px; border-bottom: 0px;
+}
+
+.intro h1 {
+    font-size: 80px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.intro p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #354456;
+    padding: 15px;
+    border-radius: 45px;
+}
+
+.intro button {
+    background-color:#ab92be;
+    color: white;
+    margin: 10px 0px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+    align-self:self-end;
+}
+
+.problem-statement {
+    max-width: 1280px;
+    margin-left: auto; margin-right: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.problem-statement h1 {
+    font-size: 36px;
+    margin: 2px;
+    color: white;
+}
+
+.problem-statement h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.problem-statement p {
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    border-radius: 25px;
+    background: #655b79;
+    padding: 20px;
+}
+
+.eq-solution {
+    margin-left: auto; margin-right: auto;
+    background-color: #19232f;
+}
+.eq-solution h2 {
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+.deliverables{
+    max-width: 1280px;
+    margin-left: auto; margin-right: auto;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column1 p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    max-width: 75%;
+}
+
+.mission-statement {
+    background-color: 354456;
+    margin-left: auto; margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.mission-text h2 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.mission-text p {
+    max-width: 1280px;
+    font-size: 22px;
+    color: white;
+    opacity: 0.8;
+    margin: 10px 0;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.footer {
+    max-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #19232f;
+    padding: 40px 80px;
+}
+
+.copy {
+    color: #fff;
+}
+
+.bottom-links .links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.tab a:hover{
+    color: #ab92be ;
+    transition-duration: .3s;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right, #121524 40%, rgba(0, 0, 0, 0.5) 80%), url("https://images.unsplash.com/reserve/uZYSV4nuQeyq64azfVIn_15130980706_64134efc6e_o.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80");
+    max-width: 1380px;
+    margin-left: auto; margin-right: auto;
+    justify-content: space-between;
+    column-gap: 120px;
+}
+
+.item-1 {
+    align-self: flex-end;
+    flex-basis: 400px;
+    position: relative;
+    top: -20px;
+    left: -100px;
+}
+
+.item-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -400px;
+}
+
+.item-2 h1 {
+    padding: 0px 15px;
+    max-width: 600px;
+}
+
+.item-2 p {
+    max-width: 600px;
+    font-size: 18px;
+}
+
+.image img{
+    content: "";
+    background: #354456;
+    width: 100%;
+    opacity: 0.5;
+}
